@@ -1,4 +1,4 @@
-1)
+----1)-----
 -- Create table
 CREATE TABLE Test_proc (
     Id INT,
@@ -20,7 +20,7 @@ CALL Insert_test(2, 'Vikram');
 -- Check inserted data
 SELECT * FROM Test_proc;
 
-2)
+----2)-----
 CREATE TABLE EMPLOYEES (
 EMPID SERIAL PRIMARY KEY,
 EMPNAME VARCHAR(100),
@@ -45,5 +45,6 @@ CALL ADDEMPLOYEE ('Vikram', 'Finance', 75000)
 --verify 
 Select * from EMPLOYEES
 
-3)
+----3)-----
+
 
